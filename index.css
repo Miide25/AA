@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
+  }
+  body{
+   background: url(Zebraphtography-3.png);
+   background-position: center;
+   margin-bottom: 300px;
+  background-size: cover;
+  box-shadow: none;
+  background-repeat: no-repeat;
+  }
+  .nav{
+      position:fixed;
+      top: 0;
+      left:0;
+      width:100%;
+      padding:1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+    .navbar a{
+      font-size: 17px;
+      color: black;
+      margin-left: 18px;
+      font-weight: 700;
+      display: inline-block;
+    }
+    .navbar a:hover,
+.navbar a.active{
+color: black;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+  .text h1{
+      font-size: 50px;
+      margin-top: 200px;
+  }
+  @media screen and (max-width: 600px)
+  {
+    body{
+      background: url(Zebraphtography-3.png);
+      background-position: center;
+     background-size:cover;
+     box-shadow: none;
+     background-repeat: no-repeat;
+     }
+    
+    .text h1{
+      font-size: 25px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 90px;
+      padding-left: px;
+  }
+  .text1 h3{
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:burlywood;
+    color: #fff;
+    padding: 1rem;
+  }
+}
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+ 
+  
+  

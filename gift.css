@@ -1,0 +1,46 @@
+body{
+    background: url(Zebraphtography-3.png);
+    background-position: center;
+    margin-bottom: 300px;
+   background-size: cover;
+   box-shadow: none;
+   background-repeat: no-repeat;
+   background-position: center;
+   }
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: -70px;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: oblique;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: oblique;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 30px;
+    font-style:oblique;
+    font-weight: 900;
+    margin-top: -50px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px; 
+}
